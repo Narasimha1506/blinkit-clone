@@ -1,0 +1,230 @@
+.header{
+    border: 2px solid white;
+    height:100px;
+    border-radius: 20px;
+}
+.logo{
+    border: 2px solid aliceblue;
+    border-radius: 20px;
+    height:100px;
+    width: 200px;
+
+    img{
+        height:100px;
+        width:200px;
+    }
+
+}
+.delivery{
+    border:2px solid aliceblue;
+    height:100px;
+    width:300px;
+    position: relative;
+    left:210px;
+    top:-103px;
+    display: grid;
+    justify-content: center;
+}
+.search{
+    border:2px solid aliceblue;
+    height:50px;
+    width:500px;
+    position: relative;
+    margin-left: 550px;
+    top:-180px;
+
+    input{
+        height:50px;
+        width:500px;
+        border-radius:20px;
+        display:flex;
+        justify-content: center;
+        align-items: center;
+    }
+    span{
+        position: relative;
+        top:-40px;
+        left:470px;
+    }
+}
+.a1{
+    border:1px solid aliceblue;
+    height:50px;
+    width:100px;
+    border-radius: 10px;
+    position: absolute;
+    left:1150px;
+    top:30px;
+    
+    button{
+        height:50px;
+        width:100px;
+        border-radius: 10px;
+        font-size: 20px;
+        color: black;
+    }
+}
+.a2{
+    border:1px solid aliceblue;
+    height:50px;
+    width:105px;
+    border-radius: 10px;
+    position: absolute;
+    left:1300px;
+    top:30px;
+
+    button{
+        height:50px;
+        width:105px;
+        border-radius:10px;
+        font-size:20px;
+        background-color: green;
+        color:white;
+    }
+}
+.anil{
+    border:2px solid white;
+    height:200px;
+    width:1000px;
+    border-radius: 20px;
+    margin-left: 260px;
+    font-size: 30px;
+    background-image:linear-gradient(green,white);
+    h2{
+        color:white;
+    }
+    img{
+        height:220px;
+        width:400px;
+        margin-left:450px;
+      position:absolute;
+      top:125px;
+    }
+    button{
+        height:40px;
+        width:80px;
+        border-radius: 20px;
+        position:absolute;
+        top:290px;
+        background-color: black;
+    }
+}
+.div{
+    border:2px solid aliceblue;
+    height:200px;
+}
+.medicines{
+    border: 1px solid white;
+    height:200px;
+    width:400px;
+    background-image: url("./blinkit logo/1304167.jpg");
+    background-size: cover;
+    border-radius: 20px;
+    position: relative;
+    left: 50px;
+    img{
+        height:120px;
+        position: relative;
+        left:50px;
+        top:-15px;
+    }
+    button{
+        height:40px;
+        width:100px;
+        border-radius: 20px;
+        border-color:black;
+        position:relative;
+        top:-150px;
+        left:270px;
+        background-color: black;
+        
+    }
+}
+.pet{
+    border:1px solid white;
+    height:200px;
+    width:400px;
+    background-image: radial-gradient(yellow,orange,yellow);
+    position: relative;
+    left:550px;
+    top:-203px;
+    border-radius: 20px;
+    img{
+        height:100px;
+    }
+    button{
+        height:40px;
+        width:100px;
+        border-radius: 20px;
+        position: relative;
+        top:-140px;
+        left:50px;
+        background-color: black;
+        text-decoration: none;
+    }
+}
+.baby{
+    border:1px solid white;
+    height:200px;
+    width:400px;
+    background-image: url("https://th.bing.com/th/id/R.b7a138d18bb81df93441d9b4d3238857?rik=QktmmSl9Ya9GTA&riu=http%3a%2f%2fwww.publicdomainpictures.net%2fpictures%2f30000%2fvelka%2fmom-and-baby-having-fun.jpg&ehk=Y6EKH2YagRy%2bSnmix%2b6Pxc8xopygXGlvEywVhdZ9Cjo%3d&risl=&pid=ImgRaw&r=0");
+    background-size: cover;
+    border-radius: 20px;
+    position: relative;
+    top:-403px;
+    left:1050px;
+    button{
+        height:40px;
+        width:100px;
+        border-radius:20px;
+        border-color: black;
+        position: relative;
+        top:-70px;
+        left:270px;
+        background-color: black;
+
+    }
+}
+.items{
+    border:2px solid white;
+    height:800px;
+    border-radius: 20px;
+
+    img{
+        height: 250px;
+        width:200px;
+    }
+}
+.footer{
+    border-color: white;
+    background-color: goldenrod;
+    border-radius: 20px;
+    position: relative;
+    /* width:100%; */
+    min-height: 350px;
+    padding:3em 1em;
+}
+.row{
+    display: flex;
+    flex-wrap: wrap;
+}
+.footer-col{
+    min-width: 150px;
+    color:black;
+    display: flex;
+    flex-wrap: wrap;
+}
+a{
+    text-decoration: none;
+    color:white;
+}
+h3{
+    position: relative;
+    top:-70px;
+    left:50px;
+    font-size: 20px;
+}
+.icons{
+    font-size: 40px;
+    margin-left:900px;
+}

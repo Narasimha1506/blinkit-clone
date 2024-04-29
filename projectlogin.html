@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    
+    <style>
+        a{
+            text-decoration: none;
+        }
+        form{
+            
+            background-color: lightgrey;
+             width: 300px;
+            border: 2px solid black;
+            padding: 50px;
+            margin: 30px;
+            text-align:center;
+        }
+    
+
+        .md{
+            display:grid ;
+            justify-content: center;
+        }
+        .header{
+    border: 2px solid black;
+    height:100px;
+}
+.logo{
+    border: 2px solid aliceblue;
+    height:100px;
+    width: 200px;
+
+    img{
+        height:100px;
+        width:200px;
+    }
+
+}
+.delivery{
+    border:2px solid aliceblue;
+    height:100px;
+    width:300px;
+    position: relative;
+    left:210px;
+    top:-103px;
+    display: grid;
+    justify-content: center;
+}
+.search{
+    border:2px solid aliceblue;
+    height:50px;
+    width:500px;
+    position: relative;
+    margin-left: 550px;
+    top:-180px;
+
+    input{
+        height:50px;
+        width:500px;
+        border-radius:20px;
+        display:flex;
+        justify-content: center;
+        align-items: center;
+    }
+    span{
+        position: relative;
+        top:-40px;
+        left:470px;
+    }
+}
+.a1{
+    border:1px solid aliceblue;
+    height:50px;
+    width:100px;
+    border-radius: 10px;
+    position: absolute;
+    left:1150px;
+    top:30px;
+    
+    button{
+        height:50px;
+        width:100px;
+        border-radius: 10px;
+        font-size: 20px;
+        text-decoration:aliceblue;
+    }
+}
+.a2{
+    border:1px solid aliceblue;
+    height:50px;
+    width:105px;
+    border-radius: 10px;
+    position: absolute;
+    left:1300px;
+    top:30px;
+
+    button{
+        height:50px;
+        width:105px;
+        border-radius:10px;
+        font-size:20px;
+        background-color: green;
+        color:white;
+    }
+}
+
+    </style>
+</head>
+<body>
+    <div class="header">
+        <div class="logo">
+        <img src="./blinkit logo/blinkit-logo.png">
+        </div>
+        <div class="delivery">
+            <h3>Delivery in 7minutes</h3>
+             <i class="fa fa-map-marker"> Hyderbad,Telangana</i>
+        </div>
+        <div class="search">
+        <input type="search" placeholder="search">
+        <span class="fa fa-search" style="font-size:24px"></span>
+        </div>
+        <div class="a1">
+        <button type="button"><a href="./projectlogin.html">Login</a></button>
+        </div>
+        <div class="a2">
+            <button type="button"><i class="fa fa-cart-plus"></i>My Cart</button>
+        </div>
+    </div><br>
+    <div class="md">
+        <form>
+            <label>Login</label><br><br>
+    <label for="mail">username:</label>
+    <input type="text" id="mail" name="username" placeholder="enter your username"/>
+    <br><br>
+    <label for="password">Password:</label>
+    <input type="text" id="password" name="password" placeholder="enter your password"/>
+    <br><br>
+    <button><a href="./project.html">Login</a></button>
+    </form>
+</div>
+</body>
+</html>
